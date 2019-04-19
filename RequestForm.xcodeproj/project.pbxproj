@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874301932253B76900264F6E /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874301922253B76900264F6E /* YPDrawSignatureView.swift */; };
 		879CAFD12242959C00797E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879CAFD02242959C00797E3F /* AppDelegate.swift */; };
 		879CAFD32242959C00797E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879CAFD22242959C00797E3F /* ViewController.swift */; };
 		879CAFD62242959C00797E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879CAFD42242959C00797E3F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		874301922253B76900264F6E /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
 		879CAFCD2242959C00797E3F /* RequestForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879CAFD02242959C00797E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		879CAFD22242959C00797E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				879CAFD02242959C00797E3F /* AppDelegate.swift */,
 				879CAFD22242959C00797E3F /* ViewController.swift */,
+				874301922253B76900264F6E /* YPDrawSignatureView.swift */,
 				879CAFD42242959C00797E3F /* Main.storyboard */,
 				879CAFDA2242959E00797E3F /* Assets.xcassets */,
 				879CAFDC2242959E00797E3F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874301932253B76900264F6E /* YPDrawSignatureView.swift in Sources */,
 				879CAFD92242959C00797E3F /* RequestForm.xcdatamodeld in Sources */,
 				879CAFD32242959C00797E3F /* ViewController.swift in Sources */,
 				879CAFD12242959C00797E3F /* AppDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKJLH8UM4Q;
 				INFOPLIST_FILE = RequestForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKJLH8UM4Q;
 				INFOPLIST_FILE = RequestForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
